@@ -160,8 +160,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 40px;
-            height: 40px;
+            width: 30px;
+            height: 30px;
             border-radius: 50%;
             text-decoration: none;
             color: white;
@@ -172,38 +172,48 @@
             transform: scale(1.1);
         }
 
-   
-        .social-media a[href*="facebook"] {
-            background: #1877F2;
+
+        .social-media a[href*="linkedin"] {
+            border: solid 2px #050b82;
+            color: #050b82;
         }
 
-        .social-media a[href*="twitter"] {
-            background: black;
+        .social-media a[href*="twitter"],
+        .social-media a[href*="x.com"] {
+            border: solid 2px #324abe;
+            color: #324abe;
         }
 
         .social-media a[href*="instagram"] {
-            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-            color: white;
+            border: solid 2px #3091e4;
+            color: #3091e4;
         }
 
-        .social-media a[href*="linkedin"] {
-            background: #0A66C2;
+        .social-media a[href*="facebook"] {
+            border:2px solid #3fafee;
+            color: #3fafee;
         }
 
         .social-media a[href*="youtube"] {
-            background: #ff0000;
+            border: 2px solid #73f1fd;
+            color: #73f1fd;
+        }
+        .social-media a[href*="wahtapp"] {
+            border: 2px solid #84f553;
+            color: #84f553;
         }
 
-    
+
+
         @media (max-width: 768px) {
             body {
                 padding: 8px;
             }
-            
+
             .card {
                 width: 100%;
                 max-width: 100%;
-         
+
                 flex-direction: row;
             }
 
@@ -266,7 +276,7 @@
 
 
         @media (max-width: 480px) {
-           
+
 
             .card-left,
             .card-right {
@@ -338,11 +348,12 @@
             </ul>
 
             <div class="social-media">
-                <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                 <a href="https://twitter.com" target="_blank" title="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
                 <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
-                <a href="https://linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
                 <a href="https://youtube.com" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="https://wahtapp.com" target="_blank" title="wahtapp"><i class="fab fa-whatsapp"></i></a>
             </div>
         </div>
     </div>
